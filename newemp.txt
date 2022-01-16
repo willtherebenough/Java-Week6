@@ -1,0 +1,132 @@
+
+//change birthMonth to uppercase
+birthMonth.equals(Month.NOVEMBER)
+//to change input birth Month to upper case
+input.nextLine().toUpperCase();
+
+
+
+
+
+
+
+
+
+
+System.out.print("Enter
+
+
+system.out.print("\t Enter 1 for Salaried Employee\n" + "\t Enter 2 for Hourly Employee\n"
+		+ "\t Enter 3 for Commission Employee\n" + "\t Enter 4 for Base-Salaried Commision employee");
+selectionNo = input.nextInt();
+system.out.print("\n\n\t Enter -1 to quit");
+nOquitters = input.nextInt();
+
+while (nOquitters != -1)
+{
+	while (selectionNo !< 1 || selectionNo !>4)
+	{
+	
+		switch(selectionNo)
+		
+		{
+			case(emp1):
+				System.out.print("Enter Salaried employee first name: ");
+				firstName = keyboard.nextString();
+
+				System.out.print("Enter Salaried employee last name: ");
+				SurName = keyboard.nextString();
+
+				System.out.print("Enter employee ssn (ex: 111-11-1111): ");
+				empSSN = keyboard.nextString();
+
+				System.out.print("Enter employee salary: $");
+				empSal= keyboard.nextInt();
+
+				System.out.print(" Enter birthdate: (numbers only, m/d/y) ");
+				empBirthDate = keyboard.nextInt();
+
+				super.getbirthDate() = empBirthDate;
+				salariedEmployee() = ('firstName', 'SurName', 'empSSN', 'empSal', 'empBirthDate');
+				break;
+			
+			case(emp2)
+
+			
+				System.out.print("Enter Commission employee first name: ");
+				firstName = keyboard.nextString();
+
+				System.out.print("Enter Commission employee last name: ");
+				SurName = keyboard.nextString();
+
+				System.out.print("Enter employee ssn: (ex: 111-11-1111) ");
+				empSSN = keyboard.nextString();
+
+				System.out.print("Enter employee weekly salary: $");
+				empSal= keyboard.nextInt();
+
+				System.out.print("Enter commision: ");
+				empCom = keyboard.nextDouble();
+
+				System.out.print(" Enter birthdate: (numbers only, m/d/y) ");
+				empBirthDate = keyboard.nextInt();
+	
+				CommissionEmployee() = ('firstName', 'SurName', 'empSSN', 'empSal', 'empCom', 'empBirthDate');
+
+
+
+			case(emp3)
+
+
+			
+				System.out.print("Enter Hourly employee first name: ");
+				firstName = keyboard.nextString();
+
+				System.out.print("Enter Hourly employee last name: ");
+				SurName = keyboard.nextString();
+
+				System.out.print("Enter employee ssn: (ex: 111-11-1111) ");
+				empSSN = keyboard.nextString();
+
+				System.out.print("Enter employee hourly wage: $");
+				empWage = keyboard.nextDouble();
+
+				System.out.print("Enter hours worked: ");
+				empHours = keyboard.nextInt();
+
+				System.out.print(" Enter birthdate: (numbers only, m/d/y) ");
+				empBirthDate = keyboard.nextInt();
+	
+
+				HourlyEmployee() = ('firstName', 'SurName', 'empSSN', 'empWage', 'empHours', 'empBirthDate');
+
+
+
+
+
+
+
+			case(emp4)
+
+				
+				System.out.print("Enter BasePlusCommission employee first name: ");
+				firstName = keyboard.nextString();
+
+				System.out.print("Enter BasePlusCommission  employee last name: ");
+				SurName = keyboard.nextString();
+				
+				System.out.print("Enter employee ssn: (ex: 111-11-1111) ");
+				empSSN = keyboard.nextString();
+
+				System.out.print("Enter employee weekly salary: $");
+				empSal= keyboard.nextInt();
+
+				System.out.print("Enter commision: ");
+				empCom = keyboard.nextDouble();
+
+				System.out.print(" Enter birthdate: (numbers only, m/d/y) ");
+				empBirthDate = keyboard.nextInt();
+	
+				CommissionEmployee() = ('firstName', 'SurName', 'empSSN', 'empSal', 'empCom', 'empBirthDate');
+
+
